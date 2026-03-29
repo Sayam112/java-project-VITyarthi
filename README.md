@@ -7,10 +7,10 @@ Overview:
 
 Campus Course & Records Manager (CCRM) is a Java SE console application that helps institutes manage:
 
--Students (create, update, deactivate, enrollments, transcripts)
--Courses (create, update, assign instructors, search/filter with streams)
--Enrollment & Grades (record marks, compute GPA, generate transcript)
--File I/O (import/export CSV, backups with timestamped folders, recursive utilities)
+1.Students (create, update, deactivate, enrollments, transcripts)
+2.Courses (create, update, assign instructors, search/filter with streams)
+3.Enrollment & Grades (record marks, compute GPA, generate transcript)
+4.File I/O (import/export CSV, backups with timestamped folders, recursive utilities)
 
 This project demonstrates Java OOP principles, advanced Java features, and design patterns in a real-world application.
 
@@ -35,39 +35,38 @@ PATH=%JAVA_HOME%\bin
    java -version
 
 Eclipse Setup- 
-Open Eclipse → File → New → Java Project.
-Import existing source (src/edu/ccrm).
-Set run configuration: Main class = edu.ccrm.cli.CCRMApp.
-Run project → see menu-driven interface.
+1.Open Eclipse → File → New → Java Project.
+2.Import existing source (src/edu/ccrm).
+3.Set run configuration: Main class = edu.ccrm.cli.CCRMApp.
+4.Run project → see menu-driven interface.
 
 Project Structure: 
 
-edu.ccrm
- ├─ cli/            # Menu-driven console UI
- ├─ domain/         # Person, Student, Instructor, Course, Enrollment, Enums
- ├─ service/        # StudentService, CourseService, EnrollmentService
- ├─ io/             # Import/Export (CSV), Backup utilities
- ├─ util/           # Validators, RecursionUtil, ConsoleUtil
- └─ config/         # AppConfig (Singleton)
+1.edu.ccrm
+. ├─ cli/            # Menu-driven console UI
+. ├─ domain/         # Person, Student, Instructor, Course, Enrollment, Enums
+. ├─ service/        # StudentService, CourseService, EnrollmentService
+. ├─ io/             # Import/Export (CSV), Backup utilities
+. ├─ util/           # Validators, RecursionUtil, ConsoleUtil
+. └─ config/         # AppConfig (Singleton)
 
 
 Features Demonstrated: 
 
--Encapsulation → Student (private fields + getters/setters).
--Inheritance & Abstraction → Person → Student/Instructor.
--Polymorphism → toString() overrides, service interfaces.
--Immutability → CourseCode.
--Static Nested Class → Course.Builder.
--Inner/Anonymous Classes → ConsoleUtil.bannerPrinter().
--Interfaces → StudentService, CourseService.
--Enums → Semester, Grade (with points).
--Design Patterns → Singleton (AppConfig), Builder (Course).
--Exceptions → Custom (DuplicateEnrollmentException, MaxCreditLimitExceededException).
--Streams & Lambdas → Course search/filter, GPA reports.
--Recursion → RecursionUtil.totalSize().
--NIO.2 → Import/Export CSV, backup folders.
--Date/Time API → Enrollment dates, backup timestamps.
-
+1.Encapsulation → Student (private fields + getters/setters).
+2.Inheritance & Abstraction → Person → Student/Instructor.
+3.Polymorphism → toString() overrides, service interfaces.
+4.Immutability → CourseCode.
+5.Static Nested Class → Course.Builder.
+6.Inner/Anonymous Classes → ConsoleUtil.bannerPrinter().
+7.Interfaces → StudentService, CourseService.
+8.Enums → Semester, Grade (with points).
+9.Design Patterns → Singleton (AppConfig), Builder (Course).
+10.Exceptions → Custom (DuplicateEnrollmentException, MaxCreditLimitExceededException).
+11.Streams & Lambdas → Course search/filter, GPA reports.
+12.Recursion → RecursionUtil.totalSize().
+13.NIO.2 → Import/Export CSV, backup folders.
+14.Date/Time API → Enrollment dates, backup timestamps.
 
 Usage Demo:
 
@@ -92,9 +91,9 @@ Added: Student{id=..., regNo=23BCY10082, ...}
 
 Acknowledgements:
 
--Oracle Java Documentation
--Java SE Tutorials (docs.oracle.com)
--StackOverflow discussions
+1.Oracle Java Documentation
+2.Java SE Tutorials (docs.oracle.com)
+3.StackOverflow discussions
 
    
   
