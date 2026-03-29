@@ -1,9 +1,9 @@
 Name: SAYAM KASHYAP
 Registration number: 24BAI10591
 
-Project: CAMPUS COURSE AND RECORDS MANAGER (CCRM)
+##Project: CAMPUS COURSE AND RECORDS MANAGER (CCRM)
 
-Overview:
+##Overview:
 
 Campus Course & Records Manager (CCRM) is a Java SE console application that helps institutes manage:
 
@@ -17,7 +17,7 @@ Campus Course & Records Manager (CCRM) is a Java SE console application that hel
 
 This project demonstrates Java OOP principles, advanced Java features, and design patterns in a real-world application.
 
-How to Run:
+##How to Run:
 
 1. Requirements-
          -JDK 11+ (tested with JDK 17)
@@ -29,7 +29,7 @@ How to Run:
         - Follow menu driven workflow
 
 
-Java on Windows:
+#Java on Windows:
 1. Download JDK from Oracle.
    
 2. Run installer and set environment variable-
@@ -39,7 +39,7 @@ PATH=%JAVA_HOME%\bin
 3. Verify installation-
    java -version
 
-Eclipse Setup- 
+#Eclipse Setup- 
 1.Open Eclipse → File → New → Java Project.
 
 2.Import existing source (src/edu/ccrm).
@@ -48,7 +48,7 @@ Eclipse Setup-
 
 4.Run project → see menu-driven interface.
 
-Project Structure: 
+##Project Structure: 
 
 1.edu.ccrm
 . ├─ cli/            # Menu-driven console UI
@@ -64,7 +64,7 @@ Project Structure:
 . └─ config/         # AppConfig (Singleton)
 
 
-Features Demonstrated: 
+##Features Demonstrated: 
 
 1.Encapsulation → Student (private fields + getters/setters).
 
@@ -95,7 +95,7 @@ Features Demonstrated:
 14.Date/Time API → Enrollment dates, backup timestamps.
 
 
-Usage Demo:
+##Usage Demo:
 
  ==== CCRM - Campus Course & Records Manager ====
 1. Manage Students
@@ -105,7 +105,7 @@ Usage Demo:
 5. Backup & Size
 6. Exit
 
-Example:
+#Example:
 
 Choose option: 1
 
@@ -124,7 +124,7 @@ DOB (yyyy-mm-dd): 2004-05-18
 Added: Student{id=..., regNo=23BCY10082, ...}
 
 
-Acknowledgements:
+##Acknowledgements:
 
 1.Oracle Java Documentation
 
